@@ -1,5 +1,8 @@
 .App {
   border: 1px solid black;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
 }
 
 bootnav {
@@ -18,7 +21,7 @@ bootnav {
 
 .nav-item a {
   color: white;
-  
+
 }
 
 .ProjectPage div.card {
