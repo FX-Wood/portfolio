@@ -15,9 +15,12 @@ class App extends Component {
           <Nav />
           <h1>App</h1>
           <Route exact path="/" component={HomePage} />
-          <Route path='/projects' component={ProjectsPage} />
           <Route path='/resume' component={ResumePage} />
           <Route path='/contact' component={ContactPage} />
+          <Route path='/projects' component={ProjectsPage} />
+          <Route path='/projects/domblenon' component={ProjectMain} />
+          <Route path='/projects/extra' component={ProjectMain} />
+          <Route path='projects/props' component={ProjectMain} />
         </div>
       </Router>
     );
