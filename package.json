@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fx-wood/portfolio.git"
+  },
+  "author": "FX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fx-wood/portfolio/issues"
+  },
+  "homepage": "https://github.com/fx-wood/portfolio#readme"
+}
