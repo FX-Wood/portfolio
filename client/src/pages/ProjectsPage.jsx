@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import Nav from '../components/Nav'
+import Nav from '../components/Nav';
+import CardDeck from 'react-bootstrap/CardDeck';
+import Container from 'react-bootstrap/Container';
 import ProjectCard from '../components/ProjectCard';
+
 
 var projects = [
     {
@@ -31,8 +34,12 @@ class ProjectsPage extends Component {
         return (
                 <div className="ProjectPage">
                     <Nav />
-                    <h1>Projects</h1>
-                    {projects.map(project => <ProjectCard {...project}/>)}
+                    <Container>
+                        <h1>Projects</h1>
+                        <CardDeck>
+                            {projects.map(project => <ProjectCard {...project}/>)}
+                        </CardDeck>
+                    </Container>
                 </div>
         )
     }

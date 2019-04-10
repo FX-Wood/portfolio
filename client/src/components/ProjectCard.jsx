@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card'
 
 const ProjectCard = props => {
     return (
-        <Card className="Project">
+        <Card>
             <Card.Img src={props.image} alt="Project detail"/>
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
