@@ -1,11 +1,30 @@
 .App {
   border: 1px solid black;
   background-color: black;
+  color: white;
   height: 100vh;
   width: 100vw;
 }
 
+
+.page {
+  height: 100%;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  height: 80%;
+}
+
 bootnav {
+  position: fixed;
+  top: 0;
   display: block;
   background-color: black;
   height: 3em;
@@ -24,7 +43,15 @@ bootnav {
 
 }
 
+.ProjectPage .card-deck {
+  overflow: scroll;
+  max-height: 100%;
+}
+
 .ProjectPage div.card {
+  color: black;
   min-width: 350px;
-  max-width: 350px
+  max-width: 350px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }

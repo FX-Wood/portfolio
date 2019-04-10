@@ -32,14 +32,15 @@ var projects = [
 class ProjectsPage extends Component {
     render() {
         return (
-                <div className="ProjectPage">
+                <div className="ProjectPage page">
                     <Nav />
-                    <Container>
-                        <h1>Projects</h1>
-                        <CardDeck>
-                            {projects.map(project => <ProjectCard {...project}/>)}
-                        </CardDeck>
-                    </Container>
+                    <div className="content">
+                        <Container>
+                            <CardDeck>
+                                {projects.map(project => <ProjectCard {...project}/>)}
+                            </CardDeck>
+                        </Container>
+                    </div>
                 </div>
         )
     }
