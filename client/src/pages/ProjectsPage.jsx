@@ -16,6 +16,13 @@ var projects = [
         description: "Flash cards as a service",
         descriptionLong: "Platform where folks can make and review flash cards to help with whatever they are studying",
         technologies: "Node.js, Express.js, PostgreSQL, Sequelize ORM, Heroku"
+    },
+    {
+        name: "Props",
+        image: "https://via.placeholder.com/300",
+        description: "Workplace engagement tool",
+        descriptionLong: "A platform for employees to communicate and give their respects to each other",
+        technologies: "React, Node.js, Express.js, MongoDB, Mongoose ODM, Heroku, reCharts"
     }
 ]
 
