@@ -55,3 +55,7 @@ bootnav {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
+.ContactPage form {
+  max-width: 800px;
+}
