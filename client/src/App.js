@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ResumePage from './pages/ResumePage';
 import ContactPage from './pages/ContactPage';
+import ProjectMain from './pages/ProjectMain';
 import './App.css';
 
 class App extends Component {
