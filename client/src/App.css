@@ -2,6 +2,25 @@
   border: 1px solid black;
 }
 
+bootnav {
+  display: block;
+  background-color: black;
+  height: 3em;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  display: inline;
+  margin: 1em;
+  box-sizing: border-box;
+}
+
+.nav-item a {
+  color: white;
+  
+}
+
 .ProjectPage div.card {
   min-width: 350px;
   max-width: 350px
