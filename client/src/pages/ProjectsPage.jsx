@@ -9,8 +9,13 @@ var projects = [
         description: "Dominion implementation",
         descriptionLong: "Simple implementation of the deck-building game Dominion.",
         technologies: "Express.js, ES6 classes, Google Charts",
-
-
+    },
+    {
+        name: "Extra",
+        image: "https://via.placeholder.com/300",
+        description: "Flash cards as a service",
+        descriptionLong: "Platform where folks can make and review flash cards to help with whatever they are studying",
+        technologies: "Node.js, Express.js, PostgreSQL, Sequelize ORM, Heroku"
     }
 ]
 
