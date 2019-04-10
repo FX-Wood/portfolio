@@ -11,4 +11,4 @@ const ProjectCard = props => {
     )
 }
 
-export default Project
+export default ProjectCard
