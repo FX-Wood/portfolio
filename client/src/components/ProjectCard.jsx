@@ -1,13 +1,15 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card'
 
 const ProjectCard = props => {
     return (
-        <div className="Project">
-            <h2>{props.name}</h2>
-            <img src={props.image} alt="Project detail"/>
-            <p>{props.description}</p>
-            <p>{props.technologies}</p>
-        </div>
+        <Card className="Project">
+            <Card.Img src={props.image} alt="Project detail"/>
+            <Card.Body>
+                <Card.Title>{props.name}</Card.Title>
+                <p>{props.description}</p>
+            </Card.Body>
+        </Card>
     )
 }
 
