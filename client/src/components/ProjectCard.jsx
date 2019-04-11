@@ -7,7 +7,7 @@ const ProjectCard = props => {
             <Card.Img src={props.image} alt="Project detail"/>
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
-                <p>{props.description}</p>
+                <Card.Text>{props.description}</Card.Text>
             </Card.Body>
         </Card>
     )
