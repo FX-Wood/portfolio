@@ -36,6 +36,13 @@ var projects = [
         description: "Workplace engagement tool",
         descriptionLong: "A platform for employees to communicate and give their respects to each other",
         technologies: "React, Node.js, Express.js, MongoDB, Mongoose ODM, Heroku, reCharts"
+    },
+    {
+        name: "Tic-Tac-Toe",
+        image: 'https://via.placeholder.com/300',
+        description: "Implementing an old classic",
+        descriptionLong: "Clean implementation of Tic-Tac-Toe with multiplayer, random AI and optimal AI",
+        technologies: 'Javascript, shuffle algorithm, min-max algorithm',
     }
 ]
 
@@ -57,7 +64,7 @@ class ProjectsPage extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            mobile: false
+            mobile: true
         }
     }
     render() {
@@ -65,23 +72,16 @@ class ProjectsPage extends Component {
         if (this.state.mobile === true) {
             content = (
                 // mobile content 
-                <div className="content">
-                    <Container>
-                        <CardDeck>
-                            {projects.map(project => <ProjectCard {...project}/>)}
-                        </CardDeck>
-                    </Container>
-                </div>
+                <CardDeck>
+                    {projects.map(project => <ProjectCard {...project}/>)}
+                </CardDeck>
             )
         } else {
             content = (
-                <div className="content">
-                <Container>
-                        <Carousel>
-                            {projects.map(slide)}
-                        </Carousel>
-                </Container>
-                </div>
+                // desktop content
+                <Carousel>
+                    {projects.map(slide)}
+                </Carousel>
             )
         }
         if (!content) {
@@ -90,7 +90,11 @@ class ProjectsPage extends Component {
         return (
                 <div className="ProjectPage page">
                     <Nav />
-                    {content}
+                    <div className="content">
+                        <Container>
+                            {content}
+                        </Container>
+                    </div>
                 </div>
         )
     }
