@@ -59,3 +59,11 @@ bootnav {
 .ContactPage form {
   max-width: 800px;
 }
+
+.ProjectPage .content div {
+  height: 500px
+}
+
+.ProjectPage .carousel-caption {
+  top: -100px;
+}
