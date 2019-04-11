@@ -8,6 +8,16 @@ const ProjectCard = props => {
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
                 <Card.Text>{props.description}</Card.Text>
+                <Card.Link 
+                    href={props.github} 
+                    target="_blank">
+                    Github
+                </Card.Link>
+                <Card.Link 
+                    href={props.demo} 
+                    target="_blank">
+                    Live!
+                </Card.Link>
             </Card.Body>
         </Card>
     )

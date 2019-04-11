@@ -19,30 +19,38 @@ var projects = [
     {
         name: "Domblenon",
         image: dombleImg,
-        description: "Dominion implementation",
+        description: "Simple Dominion set",
         descriptionLong: "Simple implementation of the deck-building game Dominion.",
         technologies: "Express.js, ES6 classes, Google Charts",
+        github: "https://www.github.com/fx-wood/Domblenon",
+        demo: "https://fx-wood.github.io/DombleHost/"
     },
     {
         name: "Extra",
         image: extraImg,
         description: "Flash cards as a service",
         descriptionLong: "Platform where folks can make and review flash cards to help with whatever they are studying",
-        technologies: "Node.js, Express.js, PostgreSQL, Sequelize ORM, Heroku"
+        technologies: "Node.js, Express.js, PostgreSQL, Sequelize ORM, Heroku",
+        github: "https://www.github.com/fx-wood/extra",
+        demo: "NEED DEMO DEPLOYMENT HERE"
     },
     {
         name: "Props",
         image: propsImg,
         description: "Workplace engagement tool",
         descriptionLong: "A platform for employees to communicate and give their respects to each other",
-        technologies: "React, Node.js, Express.js, MongoDB, Mongoose ODM, Heroku, reCharts"
+        technologies: "React, Node.js, Express.js, MongoDB, Mongoose ODM, Heroku, reCharts",
+        github: "https://www.github.com/fx-wood/props",
+        demo: "NEED DEMO DEPLOYMENT HERE"
     },
     {
         name: "Tic-Tac-Toe",
         image: 'https://via.placeholder.com/300',
-        description: "Implementing an old classic",
+        description: "An old classic",
         descriptionLong: "Clean implementation of Tic-Tac-Toe with multiplayer, random AI and optimal AI",
         technologies: 'Javascript, shuffle algorithm, min-max algorithm',
+        github: "https://www.github.com/fx-wood/tic-tac-toe",
+        demo: "NEED DEMO DEPLOYMENT HERE"
     }
 ]
 
