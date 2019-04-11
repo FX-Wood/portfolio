@@ -3,6 +3,7 @@ import Nav from '../components/Nav';
 import Container from 'react-bootstrap/Container';
 // mobile
 import CardDeck from 'react-bootstrap/CardDeck';
+import CardColumns from 'react-bootstrap/CardColumns';
 import ProjectCard from '../components/ProjectCard';
 
 // desktop
@@ -80,9 +81,9 @@ class ProjectsPage extends Component {
         if (this.state.mobile === true) {
             content = (
                 // mobile content 
-                <CardDeck>
+                <CardColumns>
                     {projects.map(project => <ProjectCard {...project}/>)}
-                </CardDeck>
+                </CardColumns>
             )
         } else {
             content = (
