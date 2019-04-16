@@ -1,12 +1,13 @@
 const express = require('express');
 const app = express();
 
+app.use(express.static(__dirname + '/client/build'))
 
-app.get('/', (req, res) => {
-    res.json('root')
+app.get('*', (req, res) => {
+    res.send(__dirname)
 })
 
-
+app.get('*', function(req, res) {res.sendFile(__dirname + '/client/build/index.html')});
 
 port = process.env.PORT || 3001
 app.listen(port, () => console.log(`portfolio is listening on port ${port}`));
