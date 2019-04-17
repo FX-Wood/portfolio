@@ -59,3 +59,7 @@ bootnav {
 .ContactPage form {
   max-width: 800px;
 }
+
+.ResumePage img {
+  max-height: 80vh;
+}
