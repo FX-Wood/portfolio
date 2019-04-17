@@ -14,6 +14,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import dombleImg from '../img/kingdom-select.png';
 import extraImg from '../img/create-cards.png';
 import propsImg from '../img/props-login.png';
+import toeImg from '../img/tic-tac-toe.png';
 
 
 var projects = [
@@ -42,16 +43,16 @@ var projects = [
         descriptionLong: "A platform for employees to communicate and give their respects to each other",
         technologies: "React, Node.js, Express.js, MongoDB, Mongoose ODM, Heroku, reCharts",
         github: "https://www.github.com/fx-wood/props",
-        demo: "NEED DEMO DEPLOYMENT HERE"
+        demo: "https://intense-basin-36132.herokuapp.com/"
     },
     {
         name: "Tic-Tac-Toe",
-        image: 'https://via.placeholder.com/300',
+        image: toeImg,
         description: "An old classic",
         descriptionLong: "Clean implementation of Tic-Tac-Toe with multiplayer, random AI and optimal AI",
         technologies: 'Javascript, shuffle algorithm, min-max algorithm',
         github: "https://www.github.com/fx-wood/tic-tac-toe",
-        demo: "NEED DEMO DEPLOYMENT HERE"
+        demo: "https://fx-wood.github.io/tic-tac-toe/"
     }
 ]
 
