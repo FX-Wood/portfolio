@@ -15,6 +15,7 @@ import dombleImg from '../img/kingdom-select.png';
 import extraImg from '../img/create-cards.png';
 import propsImg from '../img/props-login.png';
 import toeImg from '../img/tic-tac-toe.png';
+import mrImg from '../img/mr-splash.png';
 
 
 var projects = [
@@ -53,7 +54,17 @@ var projects = [
         technologies: 'Javascript, shuffle algorithm, min-max algorithm',
         github: "https://www.github.com/fx-wood/tic-tac-toe",
         demo: "https://fx-wood.github.io/tic-tac-toe/"
-    }
+    },
+    {
+        name: "Mountain Road",
+        image: mrImg,
+        description: "Ridesharing app for skiiers and riders",
+        descriptionLong: "For people who are planning travel to local ski resorts",
+        technologies: "React, Node.js, Express.js, MongoDB, Mongoose ODM, Heroku, Material-ui",
+        github: "https://www.github.com/fx-wood/mountainroad",
+        demo: "http://mountainroad.heroku.com"
+    },
+
 ]
 
 const slide = project => (
