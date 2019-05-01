@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
+import SocialMediaLinks from '../components/SocialMediaLinks';
 
 class HomePage extends Component {
     render() {
@@ -10,10 +11,11 @@ class HomePage extends Component {
                 <Nav />
                 <div className="content">
                     <Container>
-                            <p>FX's portfolio site =></p>
+                            <p>FX's portfolio:</p>
                             <p>check out my <Link to="/projects">projects</Link></p>
                             <p>or my <Link to="/resume">resume.</Link></p>
                             <p><Link to="/contact">Get</Link> in touch!</p>
+                            <SocialMediaLinks />
                     </Container>
                 </div>
             </div>

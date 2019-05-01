@@ -69,3 +69,13 @@ bootnav {
 .ResumePage img {
   max-height: 80vh;
 }
+
+.icon-link {
+  max-width: 96px;
+  margin: 2em;
+}
+
+.icon-link.linkedin {
+  max-width: 68px;
+  margin-left: 0;
+}
