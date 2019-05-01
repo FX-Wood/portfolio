@@ -8,14 +8,14 @@ class HomePage extends Component {
     render() {
         return (
             <div className="HomePage page">
-                <Nav />
                 <div className="content">
                     <Container>
-                            <p>FX's portfolio:</p>
-                            <p>check out my <Link to="/projects">projects</Link></p>
-                            <p>or my <Link to="/resume">resume.</Link></p>
-                            <p><Link to="/contact">Get</Link> in touch!</p>
-                            <SocialMediaLinks />
+                        <Nav /> 
+                        <p>FX's portfolio:</p>
+                        <p>check out my <Link to="/projects">projects</Link></p>
+                        <p>or my <Link to="/resume">resume.</Link></p>
+                        <p><Link to="/contact">Get</Link> in touch!</p>
+                        <SocialMediaLinks />
                     </Container>
                 </div>
             </div>

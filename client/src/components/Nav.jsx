@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Nav as bootNav } from 'react-bootstrap';
+import { Nav as BootNav } from 'react-bootstrap';
 
 const Nav = props => {
     return (
-        <bootNav as="nav" >
-            <bootNav.Item><Link to="/">Home</Link></bootNav.Item>
-            <bootNav.Item><Link to="/projects">Projects</Link></bootNav.Item>
-            <bootNav.Item><Link to="/resume">Resume</Link></bootNav.Item>
-            <bootNav.Item><Link to="/contact">Contact</Link></bootNav.Item>
-        </bootNav>
+        <BootNav as="nav" >
+            <BootNav.Item className="nav-button btn btn-outline-*"><Link to="/">Home</Link></BootNav.Item>
+            <BootNav.Item className="nav-button btn btn-outline-*"><Link to="/projects">Projects</Link></BootNav.Item>
+            <BootNav.Item className="nav-button btn btn-outline-*"><Link to="/resume">Resume</Link></BootNav.Item>
+            <BootNav.Item className="nav-button btn btn-outline-*"><Link to="/contact">Contact</Link></BootNav.Item>
+        </BootNav>
     )
 }
 

@@ -12,7 +12,6 @@ body,
   width: 100vw;
 }
 
-
 .page {
   height: 100%;
 }
@@ -28,25 +27,25 @@ body,
   height: 80%;
 }
 
-bootnav {
-  position: fixed;
-  top: 0;
-  display: block;
-  background-color: black;
-  height: 3em;
-  display: flex;
-  align-items: center;
-}
 
 .nav-item {
-  display: inline;
-  margin: 1em;
   box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  margin: 1em 2em 1em 0;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.nav-item:hover {
+  background: gray;
+  border-color: gray;
 }
 
 .nav-item a {
   color: white;
-
+  text-decoration: none;
+  padding: .25em 1.25em;
 }
 
 .ProjectPage .card-deck {
