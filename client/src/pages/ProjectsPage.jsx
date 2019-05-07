@@ -35,7 +35,7 @@ var projects = [
         descriptionLong: "Platform where folks can make and review flash cards to help with whatever they are studying",
         technologies: "Node.js, Express.js, PostgreSQL, Sequelize ORM, Heroku",
         github: "https://www.github.com/fx-wood/extra",
-        demo: "NEED DEMO DEPLOYMENT HERE"
+        demo: "https://extra-flashcards.herokuapp.com/"
     },
     {
         name: "Props",
@@ -62,7 +62,7 @@ var projects = [
         descriptionLong: "For people who are planning travel to local ski resorts",
         technologies: "React, Node.js, Express.js, MongoDB, Mongoose ODM, Heroku, Material-ui",
         github: "https://www.github.com/fx-wood/mountainroad",
-        demo: "http://mountainroad.heroku.com"
+        demo: "https://mountainroad.herokuapp.com"
     },
 
 ]
