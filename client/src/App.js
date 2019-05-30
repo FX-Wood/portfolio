@@ -9,14 +9,13 @@ import ProjectMain from './pages/ProjectMain';
 import './App.css';
 import ReactGA from 'react-ga';
 
-function initializeReactGA() {
-  ReactGA.initialize('UA-141098980-1');
-  ReactGA.pageview(window.location.pathname + window.location.search);
-}
+ReactGA.initialize('UA-141098980-1');
 
 class App extends Component {
+  componentDidMount() {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
   render() {
-    initializeReactGA()
     return (
       <Router>
         <div className="App">
