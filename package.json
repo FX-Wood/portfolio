@@ -4,8 +4,7 @@
   "description": "Portfolio website",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.16.4",
-    "react-ga": "^2.5.7"
+    "express": "^4.16.4"
   },
   "devDependencies": {},
   "scripts": {
