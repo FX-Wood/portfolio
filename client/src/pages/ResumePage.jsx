@@ -4,6 +4,9 @@ import Container from 'react-bootstrap/Container';
 import resume from '../resume.png';
 
 class ResumePage extends Component {
+    componentDidMount() {
+        reactGA.pageview(window.location.pathname + window.location.search)
+    }
     render() {
         return (
             <div className="ResumePage">

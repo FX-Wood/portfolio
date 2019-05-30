@@ -88,6 +88,9 @@ class ProjectsPage extends Component {
             mobile: true
         }
     }
+    componentDidMount() {
+        reactGA.pageview(window.location.pathname + window.location.search)
+    }
     render() {
         let content;
         if (this.state.mobile === true) {

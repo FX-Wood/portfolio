@@ -26,7 +26,9 @@ class ContactPage extends Component {
         e.stopPropagation()
         console.log(this.state)
     }
-    
+    componentDidMount() {
+        reactGA.pageview(window.location.pathname + window.location.search)
+    }
 
     render() {
         return (
