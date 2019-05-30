@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import Container from 'react-bootstrap/Container';
+import reactGA from 'react-ga';
 // mobile
 import CardDeck from 'react-bootstrap/CardDeck';
 import CardColumns from 'react-bootstrap/CardColumns';
@@ -89,7 +90,7 @@ class ProjectsPage extends Component {
         }
     }
     componentDidMount() {
-        this.props.reactGA.pageview(window.location.pathname + window.location.search)
+        reactGA.pageview(window.location.pathname + window.location.search)
     }
     render() {
         let content;

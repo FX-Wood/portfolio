@@ -19,10 +19,10 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Route exact path="/" render={() => <HomePage props={reactGA}/>} />
-          <Route path='/resume' render={() => <ResumePage props={reactGA}/>} />
-          <Route path='/contact' render={() => <ContactPage props={reactGA}/>} />
-          <Route exact path='/projects' render={() => <ProjectsPage props={reactGA}/>} />
+          <Route exact path="/" component={HomePage} />
+          <Route path='/resume' component={ResumePage} />
+          <Route path='/contact' component={ContactPage} />
+          <Route exact path='/projects' component={ProjectsPage} />
           <Route exact path='/projects/domblenon' component={ProjectMain} />
           <Route exact path='/projects/extra' component={ProjectMain} />
           <Route exact path='projects/props' component={ProjectMain} />
