@@ -5,7 +5,7 @@ import resume from '../resume.png';
 
 class ResumePage extends Component {
     componentDidMount() {
-        reactGA.pageview(window.location.pathname + window.location.search)
+        this.props.reactGA.pageview(window.location.pathname + window.location.search)
     }
     render() {
         return (
