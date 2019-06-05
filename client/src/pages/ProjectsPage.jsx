@@ -17,9 +17,20 @@ import extraImg from '../img/create-cards.png';
 import propsImg from '../img/props-login.png';
 import toeImg from '../img/tic-tac-toe.png';
 import mrImg from '../img/mr-splash.png';
+import diceImg from '../img/dicemagic-beyond.png';
 
 
 var projects = [
+    {
+        name: "Dicemagic.beyond",
+        image: diceImg,
+        description: 'dice rolling web extension for tabletop games',
+        descriptionLong: '',
+        technologies: 'chrome/firefox browser apis, js classes, event listeners, mutation observers',
+        github: 'https://www.github.com/fx-wood/dicemagic.beyond',
+        demo: 'https://chrome.google.com/webstore/detail/dicemagicbeyond/jdiefafcjohmkpnbgednhedeghbbgmbe'
+
+    },
     {
         name: "Domblenon",
         image: dombleImg,
@@ -66,6 +77,7 @@ var projects = [
         demo: "https://mountainroad.herokuapp.com"
     },
 
+
 ]
 
 const slide = project => (
@@ -98,7 +110,7 @@ class ProjectsPage extends Component {
             content = (
                 // mobile content 
                 <CardColumns>
-                    {projects.map(project => <ProjectCard {...project}/>)}
+                    {projects.map((project, i) => <ProjectCard key={i} {...project}/>)}
                 </CardColumns>
             )
         } else {
