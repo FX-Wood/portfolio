@@ -5,11 +5,9 @@ body,
   min-height: 100%;
   background-color: black;
 }
-.App {
-  border: 1px solid black;
+
+body {
   color: white;
-  height: 100vh;
-  width: 100vw;
 }
 
 .page {
@@ -18,9 +16,6 @@ body,
 
 .content {
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .container {

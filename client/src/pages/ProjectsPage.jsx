@@ -126,9 +126,9 @@ class ProjectsPage extends Component {
         }
         return (
                 <div className="ProjectPage page">
-                    <Nav />
                     <div className="content">
                         <Container>
+                            <Nav />
                             {content}
                         </Container>
                     </div>

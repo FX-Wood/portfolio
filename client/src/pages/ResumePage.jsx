@@ -11,8 +11,8 @@ class ResumePage extends Component {
     render() {
         return (
             <div className="ResumePage">
-                <Nav />
                 <Container>
+                <Nav />
                     <img src={resume} alt="Resume"/>
                 </Container>
             </div>

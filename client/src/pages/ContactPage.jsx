@@ -44,9 +44,9 @@ class ContactPage extends Component {
     render() {
         return (
             <div className="ContactPage page">
-                <Nav />
                 <div className="content">
                     <Container>
+                        <Nav />
                         <Form onSubmit={this.handleSubmit} >
                             <FormGroup className="name">
                                 <Form.Label>Name: </Form.Label>
