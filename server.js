@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
-const nodemailer = require('nodemailer')
+const nodemailer = require('nodemailer');
+const path = require('path');
 
 app.use(express.urlencoded({extended: false}))
 app.use(express.static(__dirname + '/client/build'))
@@ -47,6 +48,17 @@ app.post('/contact/sendmessage/to/me', async function(req, res) {
             res.status(301).json({type:'success', data:'done'})
         }
     });
+})
+
+app.get('/downloads/resume', function(req, res) {
+    const filePath = path.join(__dirname + '/static/fx wood--resume--20 june 2019.pdf')
+    res.download(filePath, function(err) {
+        if (err) {
+            console.error(err)
+        } else {
+            console.log('yay', filePath)
+        }
+    })
 })
 
 app.get('*/*', (req, res) => {
