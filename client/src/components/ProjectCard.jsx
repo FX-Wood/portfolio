@@ -11,12 +11,12 @@ const ProjectCard = props => {
                 <Card.Link 
                     href={props.github} 
                     target="_blank">
-                    Github
+                    Source
                 </Card.Link>
                 <Card.Link 
-                    href={props.demo} 
+                    href={props.demo.url} 
                     target="_blank">
-                    Live!
+                    {props.demo.name}
                 </Card.Link>
             </Card.Body>
         </Card>

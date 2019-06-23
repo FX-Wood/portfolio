@@ -28,7 +28,7 @@ var projects = [
         descriptionLong: '',
         technologies: 'chrome/firefox browser apis, js classes, event listeners, mutation observers',
         github: 'https://www.github.com/fx-wood/dicemagic.beyond',
-        demo: 'https://chrome.google.com/webstore/detail/dicemagicbeyond/jdiefafcjohmkpnbgednhedeghbbgmbe'
+        demo: {name: "Chrome Store", url: 'https://chrome.google.com/webstore/detail/dicemagicbeyond/jdiefafcjohmkpnbgednhedeghbbgmbe'},
 
     },
     {
@@ -38,7 +38,7 @@ var projects = [
         descriptionLong: "Simple implementation of the deck-building game Dominion.",
         technologies: "Express.js, ES6 classes, Google Charts",
         github: "https://www.github.com/fx-wood/Domblenon",
-        demo: "https://fx-wood.github.io/DombleHost/"
+        demo: {name: "Github Pages", url:"https://fx-wood.github.io/DombleHost/"}
     },
     {
         name: "Extra",
@@ -47,7 +47,7 @@ var projects = [
         descriptionLong: "Platform where folks can make and review flash cards to help with whatever they are studying",
         technologies: "Node.js, Express.js, PostgreSQL, Sequelize ORM, Heroku",
         github: "https://www.github.com/fx-wood/extra",
-        demo: "https://extra-flashcards.herokuapp.com/"
+        demo: {name: "Heroku Deployment", url:"https://extra-flashcards.herokuapp.com/"}
     },
     {
         name: "Props",
@@ -56,7 +56,7 @@ var projects = [
         descriptionLong: "A platform for employees to communicate and give their respects to each other",
         technologies: "React, Node.js, Express.js, MongoDB, Mongoose ODM, Heroku, reCharts",
         github: "https://www.github.com/fx-wood/props",
-        demo: "https://intense-basin-36132.herokuapp.com/"
+        demo: {name: "Heroku Deployment", url:"https://intense-basin-36132.herokuapp.com/"}
     },
     {
         name: "Tic-Tac-Toe",
@@ -65,7 +65,7 @@ var projects = [
         descriptionLong: "Clean implementation of Tic-Tac-Toe with multiplayer, random AI and optimal AI",
         technologies: 'Javascript, shuffle algorithm, min-max algorithm',
         github: "https://www.github.com/fx-wood/tic-tac-toe",
-        demo: "https://fx-wood.github.io/tic-tac-toe/"
+        demo: {name: "Github Pages", url:"https://fx-wood.github.io/tic-tac-toe/"}
     },
     {
         name: "Mountain Road",
@@ -74,7 +74,7 @@ var projects = [
         descriptionLong: "For people who are planning travel to local ski resorts",
         technologies: "React, Node.js, Express.js, MongoDB, Mongoose ODM, Heroku, Material-ui",
         github: "https://www.github.com/fx-wood/mountainroad",
-        demo: "https://mountainroad.herokuapp.com"
+        demo: {name: "Heroku Deployment", url: "https://mountainroad.herokuapp.com"}
     },
 
 
@@ -106,7 +106,7 @@ class ProjectsPage extends Component {
     }
     render() {
         let content;
-        if (this.state.mobile === true) {
+        if (this.state.mobile) {
             content = (
                 // mobile content 
                 <CardColumns>
