@@ -61,8 +61,8 @@ app.get('/downloads/resume', function(req, res) {
     })
 })
 
-app.get('/*', (req, res) => {
-    res.send(__dirname + '/client/build/index.html')
+app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '/client/build/index.html'))
 })
 
 port = process.env.PORT || 3001
