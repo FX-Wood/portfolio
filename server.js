@@ -61,7 +61,7 @@ app.get('/downloads/resume', function(req, res) {
     })
 })
 
-app.get('*/*', (req, res) => {
+app.get('/*', (req, res) => {
     res.send(__dirname + '/client/build/index.html')
 })
 
