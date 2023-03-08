@@ -56,7 +56,7 @@ var projects = [
         descriptionLong: "A platform for employees to communicate and give their respects to each other",
         technologies: "React, Node.js, Express.js, MongoDB, Mongoose ODM, Heroku, reCharts",
         github: "https://www.github.com/fx-wood/props",
-        demo: {name: "Heroku Deployment", url:"https://intense-basin-36132.herokuapp.com/"}
+        demo: {name: "Heroku Deployment", url:"https://props-app.herokuapp.com"}
     },
     {
         name: "Tic-Tac-Toe",
