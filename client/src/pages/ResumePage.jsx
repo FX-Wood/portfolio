@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import resume from '../img/resume.png';
+import resume from '../img/website-resume-2023.png';
 import reactGA from 'react-ga';
 
 class ResumePage extends Component {
