@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Nav from './components/Nav';
+import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ResumePage from './pages/ResumePage';
@@ -17,15 +16,15 @@ class App extends Component {
   }
   render() {
     return (
-      <Router>
-          <Route exact path="/" component={HomePage} />
-          <Route path='/resume' component={ResumePage} />
-          <Route path='/contact' component={ContactPage} />
-          <Route exact path='/projects' component={ProjectsPage} />
-          <Route exact path='/projects/domblenon' component={ProjectMain} />
-          <Route exact path='/projects/extra' component={ProjectMain} />
-          <Route exact path='projects/props' component={ProjectMain} />
-      </Router>
+      <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path='/resume' element={<ResumePage />} />
+          <Route path='/contact' element={<ContactPage />} />
+          <Route path='/projects' element={<ProjectsPage />} />
+          <Route exact path='/projects/domblenon' component={<ProjectMain />} />
+          <Route exact path='/projects/extra' component={<ProjectMain />} />
+          <Route exact path='/projects/props' component={<ProjectMain />} />
+      </Routes>
     );
   }
 }

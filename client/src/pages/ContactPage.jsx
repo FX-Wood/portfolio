@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import reactGA from 'react-ga';
 import Nav from '../components/Nav';
 import Form from 'react-bootstrap/Form';
 import FormGroup from 'react-bootstrap/FormGroup';
@@ -36,9 +35,6 @@ class ContactPage extends Component {
             .then(res => res.json())
             .then(data => console.log(data))
             .catch(err => console.log(err))
-    }
-    componentDidMount() {
-        reactGA.pageview(window.location.pathname + window.location.search)
     }
 
     render() {
