@@ -4,12 +4,13 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "react": "^16.8.6",
-    "react-bootstrap": "^1.0.0-beta.9",
-    "react-dom": "^16.8.6",
-    "react-ga": "^2.5.7",
-    "react-router-dom": "^5.0.1",
-    "react-scripts": "2.1.8"
+    "fsevents": "^2.3.3",
+    "react": "18.2.0",
+    "react-bootstrap": "1.6.1",
+    "react-dom": "18.2.0",
+    "react-ga": "^3.3.1",
+    "react-router-dom": "6.15.0",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
