@@ -19,8 +19,10 @@ import mrImg from '../img/mr-splash.png';
 import diceImg from '../img/dicemagic-beyond.png';
 import recipelfImg from '../img/recipelf.png';
 import likeableImg from '../img/likeable.png';
+import seaJsImg from '../img/seattlejs-airtable-cli.png';
 
 var projects = [
+
     {
         name: "recipelf",
         image: recipelfImg,
@@ -47,7 +49,15 @@ var projects = [
         technologies: 'chrome/firefox browser apis, js classes, event listeners, mutation observers',
         github: 'https://www.github.com/fx-wood/dicemagic.beyond',
         demo: {name: "Chrome Store", url: 'https://chrome.google.com/webstore/detail/dicemagicbeyond/jdiefafcjohmkpnbgednhedeghbbgmbe'},
-
+    },
+    {
+        name: "SeattleJS Airtable CLI",
+        image: seaJsImg,
+        description: 'CLI Tool for administering the SeattleJS.com website',
+        descriptionLong: '',
+        technologies: 'CLI, airtable',
+        github: 'https://github.com/seattlejs/seattlejs-airtable-cli',
+        demo: {name: "NPM Deployment", url: 'https://npmjs.org/seattlejs-airtable-cli'},
     },
     {
         name: "Domblenon",
