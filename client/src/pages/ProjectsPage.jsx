@@ -18,6 +18,7 @@ import toeImg from '../img/tic-tac-toe.png';
 import mrImg from '../img/mr-splash.png';
 import diceImg from '../img/dicemagic-beyond.png';
 import recipelfImg from '../img/recipelf.png';
+import likeableImg from '../img/likeable.png';
 
 var projects = [
     {
@@ -28,6 +29,15 @@ var projects = [
         technologies: 'generative AI, react, expressjs, css, html, postgres, authentication/authorization, JWT',
         github: 'https://github.com/fx-wood/recipelf',
         demo: {name: "AWS Deployment", url: 'https://recipelf.com'},
+    },
+    {
+        name: "likeable",
+        image: likeableImg,
+        description: 'Tinder for design options. Swipe left or right to be presented with personalized design recommendations',
+        descriptionLong: '',
+        technologies: 'recommender, design, hackathon, architecture-engineering-construction',
+        github: 'https://github.com/fx-wood/mesh-server',
+        demo: {name: "Vercel Deployment", url: 'https://likeable.vercel.app'},
     },
     {
         name: "Dicemagic.beyond",
