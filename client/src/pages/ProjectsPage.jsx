@@ -3,7 +3,6 @@ import Nav from '../components/Nav';
 import Container from 'react-bootstrap/Container';
 import reactGA from 'react-ga';
 // mobile
-import CardDeck from 'react-bootstrap/CardDeck';
 import CardColumns from 'react-bootstrap/CardColumns';
 import ProjectCard from '../components/ProjectCard';
 
@@ -18,9 +17,18 @@ import propsImg from '../img/props-login.png';
 import toeImg from '../img/tic-tac-toe.png';
 import mrImg from '../img/mr-splash.png';
 import diceImg from '../img/dicemagic-beyond.png';
-
+import recipelfImg from '../img/recipelf.png';
 
 var projects = [
+    {
+        name: "recipelf",
+        image: recipelfImg,
+        description: 'Generate new recipes using chatGPT and the ingredients in your kitchen',
+        descriptionLong: '',
+        technologies: 'generative AI, react, expressjs, css, html, postgres, authentication/authorization, JWT',
+        github: 'https://github.com/fx-wood/recipelf',
+        demo: {name: "AWS Deployment", url: 'https://recipelf.com'},
+    },
     {
         name: "Dicemagic.beyond",
         image: diceImg,
@@ -34,8 +42,8 @@ var projects = [
     {
         name: "Domblenon",
         image: dombleImg,
-        description: "Simple Dominion set",
-        descriptionLong: "Simple implementation of the deck-building game Dominion.",
+        description: "Simple Dominion kingdom picker",
+        descriptionLong: "Simple kingdom picker for dominion",
         technologies: "Express.js, ES6 classes, Google Charts",
         github: "https://www.github.com/fx-wood/Domblenon",
         demo: {name: "Github Pages", url:"https://fx-wood.github.io/DombleHost/"}
