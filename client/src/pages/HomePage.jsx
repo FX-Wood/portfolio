@@ -11,11 +11,12 @@ class HomePage extends Component {
                 <div className="content">
                     <Container>
                         <Nav /> 
-                        <p>check out my <Link to="/projects">projects</Link></p>
+                        <p>check out my <Link to="/">projects</Link></p>
                         <p>
-                            <Link to="mailto:fxwood.work@gmail.com">send me an email</Link>
-                            or
-                            <Link to="https://linkedin.com/in/fx-wood">connect with me on linkedin!</Link>
+                            send me an 
+                            <Link to="mailto:fxwood.work@gmail.com"> email </Link>
+                            or connect with me on 
+                            <Link to="https://linkedin.com/in/fx-wood"> linkedin!</Link>
                         </p>
                         <SocialMediaLinks />
                     </Container>
