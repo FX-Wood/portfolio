@@ -2,7 +2,7 @@ import React from 'react';
 import octocatDark from '../icons/github-white-fill.png';
 import inDark from '../icons/linkedin-white-fill.png';
 
-const SocialMediaLinks = (props) => {
+const SocialMediaLinks = () => {
     return (
         <>
             <a href="https://www.linkedin.com/in/fx-wood"><img className="icon-link linkedin" src={inDark} alt="Linkedin profile"/></a>
