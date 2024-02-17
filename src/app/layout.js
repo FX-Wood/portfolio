@@ -1,5 +1,3 @@
-import './index.css'
-import './App.css'
 export const metadata = {
     title: "fx.codes",
     description: "portfolio site for FX",
@@ -14,6 +12,10 @@ export default function RootLayout({ children }) {
             <link
               rel="stylesheet"
               href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            />
+            <link
+              rel="stylesheet"
+              href="/css/main.css"
             />
             <meta
               name="viewport"
