@@ -1,8 +1,10 @@
-// export const metadata = {
-//     title: "fx.codes",
-//     description: "portfolio site for FX",
-//     charSet: 'utf-8'
-// }
+export const metadata = {
+    title: "fx.codes",
+    description: "portfolio site for FX",
+    charSet: 'utf-8',
+    icon: '/media/favicon.ico'
+}
+
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
