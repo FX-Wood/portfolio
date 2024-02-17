@@ -1,8 +1,5 @@
 "use client"
-import './index.css'
- 
 import React, { Component } from 'react';
-import Nav from './components/Nav';
 import Container from 'react-bootstrap/Container';
 // mobile
 import CardColumns from 'react-bootstrap/CardColumns';
@@ -18,7 +15,7 @@ import Image from 'next/image'
 var projects = [
     {
         name: "recipelf",
-        image: '/media/recipelf.png',
+        image: '/img/recipelf.png',
         description: 'Generate new recipes using chatGPT and the ingredients in your kitchen',
         descriptionLong: '',
         technologies: 'generative AI, react, expressjs, css, html, postgres, authentication/authorization, JWT',
@@ -27,7 +24,7 @@ var projects = [
     },
     {
         name: "likeable",
-        image: '/media/likeable.png',
+        image: '/img/likeable.png',
         description: 'Tinder for design options. Swipe left or right to be presented with personalized design recommendations',
         descriptionLong: '',
         technologies: 'recommender, design, hackathon, architecture-engineering-construction',
@@ -36,7 +33,7 @@ var projects = [
     },
     {
         name: "Dicemagic.beyond",
-        image: '/media/dicemagic-beyond.png',
+        image: '/img/dicemagic-beyond.png',
         description: 'dice rolling web extension for tabletop games',
         descriptionLong: '',
         technologies: 'chrome/firefox browser apis, js classes, event listeners, mutation observers',
@@ -45,7 +42,7 @@ var projects = [
     },
     {
         name: "SeattleJS Airtable CLI",
-        image: '/seattlejs-airtable-cli.png',
+        image: '/img/seattlejs-airtable-cli.png',
         description: 'CLI Tool for administering the SeattleJS.com website',
         descriptionLong: '',
         technologies: 'CLI, airtable',
@@ -54,7 +51,7 @@ var projects = [
     },
     {
         name: "Domblenon",
-        image: '/media/kingdom-select.png',
+        image: '/img/kingdom-select.png',
         description: "Simple Dominion kingdom picker",
         descriptionLong: "Simple kingdom picker for dominion",
         technologies: "Express.js, ES6 classes, Google Charts",
@@ -63,7 +60,7 @@ var projects = [
     },
     {
         name: "Extra",
-        image: '/media/create-cards.png',
+        image: '/img/create-cards.png',
         description: "Flash cards as a service",
         descriptionLong: "Platform where folks can make and review flash cards to help with whatever they are studying",
         technologies: "Node.js, Express.js, PostgreSQL, Sequelize ORM, Heroku",
@@ -72,7 +69,7 @@ var projects = [
     },
     {
         name: "Props",
-        image: '/media/props-login.png',
+        image: '/img/props-login.png',
         description: "Workplace engagement tool",
         descriptionLong: "A platform for employees to communicate and give their respects to each other",
         technologies: "React, Node.js, Express.js, MongoDB, Mongoose ODM, Heroku, reCharts",
@@ -81,7 +78,7 @@ var projects = [
     },
     {
         name: "Tic-Tac-Toe",
-        image: '/media/tic-tac-toe.png',
+        image: '/img/tic-tac-toe.png',
         description: "An old classic",
         descriptionLong: "Clean implementation of Tic-Tac-Toe with multiplayer, random AI and optimal AI",
         technologies: 'Javascript, shuffle algorithm, min-max algorithm',
@@ -90,7 +87,7 @@ var projects = [
     },
     {
         name: "Mountain Road",
-        image: '/media/mr-splash.png',
+        image: '/img/mr-splash.png',
         description: "Ridesharing app for skiiers and riders",
         descriptionLong: "For people who are planning travel to local ski resorts",
         technologies: "React, Node.js, Express.js, MongoDB, Mongoose ODM, Heroku, Material-ui",
