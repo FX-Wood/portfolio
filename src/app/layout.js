@@ -1,3 +1,4 @@
+import Nav from './components/Nav'
 export const metadata = {
     title: "fx.codes",
     description: "portfolio site for FX",
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
           </head>
           <body>
             <noscript>You need to enable JavaScript to run this app.</noscript>
+            <Nav />
             <div id="root">{children}</div>
           </body>
         </html>

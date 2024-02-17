@@ -37,6 +37,12 @@ body {
   height: 80%;
 }
 
+.nav {
+  margin: 30px;
+}
+.nav-item.active {
+  text-shadow:  1px 1px 2px lightblue, 0 0 1em blue, 0 0 0.2em blue;
+}
 
 .nav-item {
   box-sizing: border-box;
