@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
               name="viewport"
               content="width=device-width, initial-scale=1, shrink-to-fit=no"
             />
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"/>
             <meta name="theme-color" content="#000000" />
             <link rel="manifest" href="/favicon/manifest.json" />
             <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />

@@ -8,14 +8,15 @@ const Nav = () => {
     const pathname = usePathname()
     const baseClass = "nav-button btn btn-outline-*"
     return (
-        <BootNav as="nav" >
-            <BootNav.Item className={`${pathname === '/' ? baseClass + ' active' : baseClass }`}>
-                <Link href="/">Home</Link>
-            </BootNav.Item>
-            <BootNav.Item className={`${pathname === '/contact' ? baseClass + ' active' : baseClass }`}>
-                <Link href="/contact">Contact</Link>
-            </BootNav.Item>
-        </BootNav>
+            <BootNav as="nav" className="justify-content-center" >
+                <span className="brand">F(x)</span>
+                <BootNav.Item className={`${pathname === '/' ? baseClass + ' active' : baseClass }`}>
+                    <Link href="/">Home</Link>
+                </BootNav.Item>
+                <BootNav.Item className={`${pathname === '/contact' ? baseClass + ' active' : baseClass }`}>
+                    <Link href="/contact">Contact</Link>
+                </BootNav.Item>
+            </BootNav>
     )
 }
 
