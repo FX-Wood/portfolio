@@ -1,6 +1,6 @@
 import NavBar from './components/NavBar'
 export const metadata = {
-    title: "fx.codes",
+    title: "FX's Portfolio",
     description: "portfolio site for FX",
     charSet: 'utf-8'
 }
@@ -28,7 +28,6 @@ export default function RootLayout({ children }) {
             <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
             <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
             <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
-            <title>FX Wood</title>
           </head>
           <body>
             <noscript>You need to enable JavaScript to run this app.</noscript>
