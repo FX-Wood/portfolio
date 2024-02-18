@@ -9,7 +9,6 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
           <head>
-            <link rel="shortcut icon" href="../public/favicon.ico" />
             <link
               rel="stylesheet"
               href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
