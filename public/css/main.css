@@ -43,6 +43,9 @@ body {
   text-shadow:  1px 1px 2px lightblue, 0 0 1em blue, 0 0 0.2em blue;
 }
 
+.nav-bar {
+  padding: 30px;
+}
 .nav-item {
   box-sizing: border-box;
   display: inline-block;
@@ -50,6 +53,10 @@ body {
   margin: 1em 2em 1em 0;
   border: 1px solid gray;
   border-radius: 5px;
+}
+
+.nav-brand-img {
+  padding-right:2em;
 }
 
 .nav-item:hover {

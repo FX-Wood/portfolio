@@ -9,7 +9,6 @@ const Nav = () => {
     const baseClass = "nav-button btn btn-outline-*"
     return (
             <BootNav as="nav" className="justify-content-center" >
-                <span className="brand">F(x)</span>
                 <BootNav.Item className={`${pathname === '/' ? baseClass + ' active' : baseClass }`}>
                     <Link href="/">Home</Link>
                 </BootNav.Item>
