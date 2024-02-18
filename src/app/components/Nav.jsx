@@ -10,7 +10,7 @@ const Nav = () => {
     return (
             <BootNav as="nav" className="justify-content-center" >
                 <BootNav.Item className={`${pathname === '/' ? baseClass + ' active' : baseClass }`}>
-                    <Link href="/">Home</Link>
+                    <Link href="/">Projects</Link>
                 </BootNav.Item>
                 <BootNav.Item className={`${pathname === '/contact' ? baseClass + ' active' : baseClass }`}>
                     <Link href="/contact">Contact</Link>

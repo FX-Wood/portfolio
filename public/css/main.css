@@ -25,14 +25,6 @@ body {
   color: white;
 }
 
-.page {
-  height: 100%;
-}
-
-.content {
-  height: 100%;
-}
-
 .brand {
   font-family: Roboto-Slab;
   font-size: 3em;
@@ -70,25 +62,16 @@ body {
   padding: .25em 1.25em;
 }
 
-.ProjectPage .card-deck {
-  overflow: scroll;
-  max-height: 100%;
+.card-columns {
+  margin: 1em;
 }
 
-.ProjectPage div.card {
+div.card {
   color: black;
   /* min-width: 350px;
   max-width: 350px; */
   margin-top: 1em;
   margin-bottom: 1em;
-}
-
-.ContactPage form {
-  max-width: 800px;
-}
-
-.ResumePage img {
-  max-height: 80vh;
 }
 
 .icon-link {
@@ -99,4 +82,21 @@ body {
 .icon-link.linkedin {
   max-width: 68px;
   margin-left: 0;
+}
+
+.squarousel {
+  width: 400px;
+  height: 400px;
+}
+
+.squarousel-img {
+  object-fit: contain;
+  width: 400px;
+  height: 400px;
+}
+
+hr {
+  background-color: #CCCCCC;
+  height: 1px;
+  opacity: .75;
 }

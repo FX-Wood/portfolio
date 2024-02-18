@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card'
 const ProjectCard = props => {
     return (
         <Card>
-            <Card.Img src={props.image} alt="Project detail"/>
+            <Card.Img src={props.images[0]} alt="Project detail"/>
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
                 <Card.Text>{props.description}</Card.Text>
