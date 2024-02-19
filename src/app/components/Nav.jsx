@@ -12,8 +12,11 @@ const Nav = () => {
                 <BootNav.Item className={`${pathname === '/' ? baseClass + ' active' : baseClass }`}>
                     <Link href="/">Projects</Link>
                 </BootNav.Item>
+                <BootNav.Item className={`${pathname === '/about' ? baseClass + ' active' : baseClass }`}>
+                    <Link href="/about">About Me</Link>
+                </BootNav.Item>
                 <BootNav.Item className={`${pathname === '/contact' ? baseClass + ' active' : baseClass }`}>
-                    <Link href="/contact">Contact</Link>
+                    <Link href="/contact">Get in Touch</Link>
                 </BootNav.Item>
             </BootNav>
     )

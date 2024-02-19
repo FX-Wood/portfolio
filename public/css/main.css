@@ -113,6 +113,16 @@ hr {
   opacity: .75;
 }
 
+.about-main {
+  max-width: 1400px;
+}
+.about-photo-col {
+  max-width: fit-content;
+}
+.about-photo {
+  max-width: 400px;
+}
+
 .contact-main {
   max-width: 1600px;
 }
