@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  min-height: 100%;
+  background-color: black;
+}
+
+body {
+  color: white;
+}
+
+.brand {
+  font-family: Roboto-Slab;
+  font-size: 3em;
+  margin-right: .25em;
+}
+
+.nav-item.active {
+  text-shadow:  1px 1px 2px lightblue, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.nav-bar {
+  padding: 30px;
+}
+.nav-item {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  margin: 1em 2em 1em 0;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.nav-brand-img {
+  padding-right:2em;
+}
+
+.nav-item:hover {
+  background: gray;
+  border-color: gray;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  padding: .25em 1.25em;
+}
+
+.card-columns {
+  margin: 1em;
+}
+
+div.card {
+  color: black;
+  /* min-width: 350px;
+  max-width: 350px; */
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.icon-link {
+  max-width: 96px;
+  margin: 2em;
+}
+
+.icon-link.linkedin {
+  max-width: 68px;
+  margin-left: 0;
+}
+
+.squarousel {
+  width: 400px;
+  height: 400px;
+}
+
+.squarousel-img {
+  object-fit: contain;
+  width: 400px;
+  height: 400px;
+}
+
+hr {
+  background-color: #CCCCCC;
+  height: 1px;
+  opacity: .75;
+}
+
+.projects-main {
+  max-width: 1600px;
+}
+.project-link {
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.project-technologies {
+  font-style: italic;
+  opacity: .75;
+}
+
+.contact-main {
+  max-width: 1600px;
+}
