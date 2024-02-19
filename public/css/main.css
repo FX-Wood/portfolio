@@ -100,3 +100,19 @@ hr {
   height: 1px;
   opacity: .75;
 }
+
+.projects-main {
+  max-width: 1600px;
+}
+.project-link {
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.project-technologies {
+  font-style: italic;
+  opacity: .75;
+}
+
+.contact-main {
+  max-width: 1600px;
+}
