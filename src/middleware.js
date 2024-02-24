@@ -5,7 +5,7 @@ export function middleware(request) {
 		// redirect https
 		if (request.headers.get('x-forwarded-proto') !== 'https') {
 			const redirectURL = new URL(`https://${request.headers.get('host')}${request.nextUrl.pathname}`)
-			return NextResponse.redirect(redirectURL.toString())
+			return NextResponse.redirect(redirectURL.toString(), 301)
 		}
 	}
 }
