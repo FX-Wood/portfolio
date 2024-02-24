@@ -6,6 +6,7 @@ export function middleware(request) {
 		console.log(request.headers)
 		console.log(request.url)
 		console.log('path', request.path)
+		console.log(request.nextUrl)
 		if (request.headers['x-forwarded-proto'] !== 'https') {
 			const redirectURL = new URL(`https://${request.headers['host']}${request.url}`)
 			console.log('redirectURL', redirectURL)
