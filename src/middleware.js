@@ -5,7 +5,7 @@ export function middleware(request) {
 		// redirect https
 		console.log(request.headers)
 		if (request.headers['x-forwarded-proto'] !== 'https') {
-			NextResponse.redirect(`https://${request.headers['host']}${request.url}`)
+			return NextResponse.redirect(`https://${request.headers['host']}${request.url}`)
 		}
 	}
 }
