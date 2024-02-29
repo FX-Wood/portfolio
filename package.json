@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/fx-wood/portfolio/issues"
   },
-  "homepage": "https://github.com/fx-wood/portfolio#readme"
+  "homepage": "https://github.com/fx-wood/portfolio#readme",
+  "devDependencies": {
+    "@types/node": "20.11.22",
+    "typescript": "5.3.3"
+  }
 }
