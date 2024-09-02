@@ -138,8 +138,8 @@ var projects = [
     technologies: "Node.js, Express.js, PostgreSQL, Sequelize ORM, Heroku",
     github: "https://www.github.com/fx-wood/extra",
     demo: {
-      name: "Heroku Deployment",
-      url: "https://extra-flashcards.herokuapp.com/",
+      name: "Vercel Deployment",
+      url: "https://extra-sable.vercel.app",
     },
   },
   {
