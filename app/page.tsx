@@ -155,7 +155,7 @@ var projects = [
     technologies:
       "React, Node.js, Express.js, MongoDB, Mongoose ODM, Heroku, reCharts",
     github: "https://www.github.com/fx-wood/props",
-    demo: { name: "Heroku Deployment", url: "https://props-app.herokuapp.com" },
+    demo: { name: "Vercel Deployment", url: "https://props-harp.vercel.app" },
   },
   {
     name: "Tic-Tac-Toe",
