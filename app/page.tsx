@@ -191,8 +191,8 @@ var projects = [
       "React, Node.js, Express.js, MongoDB, Mongoose ODM, Heroku, Material-ui",
     github: "https://www.github.com/fx-wood/mountainroad",
     demo: {
-      name: "Heroku Deployment",
-      url: "https://mountainroad.herokuapp.com",
+      name: "Vercel Deployment",
+      url: "https://mountainroad.vercel.app",
     },
   },
 ];
