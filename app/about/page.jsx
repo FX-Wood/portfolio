@@ -22,8 +22,9 @@ const AboutPage = () => {
             </p>
             <p>
               I have a few years of experience in
-              infrastructure/support/SRE/DevOps, and I'm coming back from a
-              career break.
+              infrastructure/support/SRE/DevOps, and I just spent the summer
+              teaching programming, robotics, and game development to students
+              between the ages of 5 and 12.
             </p>
             <p>
               My interests outside of work are many and varied, but include
