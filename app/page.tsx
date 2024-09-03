@@ -8,6 +8,30 @@ import debounce from "lodash.debounce";
 
 var projects = [
   {
+    name: "Timeformer (Time Transformer)",
+    order: -1,
+    desktopOrder: -1,
+    images: [
+      "img/timeformer/timeformer-wide-view.png",
+      "img/timeformer/timeformer-detail-local-time.png",
+      "img/timeformer/timeformer-detail-output-zone.png",
+      "img/timeformer/timeformer-detail-output-formats.png",
+      "img/timeformer/timeformer-detail-output.png",
+    ],
+    description: "Makes time stamps in various formats and zones",
+    descriptionLong: [
+      "Simple static site",
+      "Supports many formats, including my favorite (RFC 5322/2822)",
+      "Can be used for scheduling meetings, planning events, and checking your calendar",
+      "Has no observable temporal side-effects",
+    ],
+    technologies: "HTML, CSS, JavaScript, Vercel, simplicity",
+    demo: {
+      name: "Vercel Deployment",
+      url: "timeformer.vercel.app",
+    },
+  },
+  {
     name: "You Should Use a DateTime Library (Maybe)",
     order: 0,
     desktopOrder: 0,
