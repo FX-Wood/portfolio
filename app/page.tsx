@@ -8,6 +8,29 @@ import debounce from "lodash.debounce";
 
 var projects = [
   {
+    name: "isit.food",
+    order: -2,
+    desktopOrder: -2,
+    images: [
+      "img/isitfood/isitfood-unknown.png",
+      "img/isitfood/isitfood-checking.png",
+      "img/isitfood/isitfood-yes.png",
+      "img/isitfood/isitfood-no.png",
+    ],
+    description: "Api and client for classifying arbitrary input",
+    descriptionLong: [
+      "Try it out yourself!",
+      "Uses vercel edge functions for faster api responses",
+      "Uses proprietary algorithm for efficient and scalable classification",
+      "Can determine foodiness at incredible scale and throughput",
+    ],
+    technologies: "Redis, Postgres, Neon.tech, Vercel Edge Runtime, Shadcn",
+    demo: {
+      name: "Vercel Deployment",
+      url: "https://isit.food",
+    },
+  },
+  {
     name: "Timeformer (Time Transformer)",
     order: -1,
     desktopOrder: -1,
