@@ -51,7 +51,7 @@ var projects = [
     technologies: "HTML, CSS, JavaScript, Vercel, simplicity",
     demo: {
       name: "Vercel Deployment",
-      url: "timeformer.vercel.app",
+      url: "https://timeformer.vercel.app",
     },
   },
   {
