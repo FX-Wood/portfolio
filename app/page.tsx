@@ -24,7 +24,7 @@ var projects = [
       "Uses proprietary algorithm for efficient and scalable classification",
       "Can determine foodiness at incredible scale and throughput",
     ],
-    technologies: "Redis, Postgres, Neon.tech, Vercel Edge Runtime, Shadcn",
+    technologies: "Postgres, Neon.tech, Vercel Edge Runtime, Shadcn",
     demo: {
       name: "Vercel Deployment",
       url: "https://isit.food",
